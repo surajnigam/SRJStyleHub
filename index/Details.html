@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+   
+    <!-- <link rel="stylesheet" href="/common.css"> -->
+    <link rel="stylesheet" href="/Details.css">
+   
+</head>
+<body>
+  <div class="nav">
+    <img src="/images/logo.png" alt="" width="40vw" class="logo">       
+    <p class="name" onclick="srjfashion()">SRJFASHION</p>
+    <input type="text" name="" id="" placeholder="Search here">
+    <button type="button">search</button>
+    <nav>
+        <!-- <div class="login"><button type="button">Lonin</button></div> -->
+       <div class="cart"></a>
+          <span id="login" onclick="redirectToLogin()">Login</span>
+          <img id="cart" src="/images/cart.png" alt="cart">
+          <img id="profile" src="/images/profile.png" alt="profile">
+       </div> 
+       
+        <ul id="manulist">
+            <li><a href="">HOME</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>-
+        </ul>
+    </nav>
+        <img src="/images/menu.png" alt="" width="15vw" class="menu" onclick="togglemenu()">
+    </div>
+    
+    <!-- Main Section -->
+    <section class="cloth-details">
+        <div class="container">
+            <div class="image">
+                <img src="" id="productImage" alt="Product Image">
+            </div>
+            <div class="info">
+                <h2 class="title" id="productTitle">Product Title</h2>
+                <p class="price" id="productPrice">Price: </p>
+                <p class="color" id="productColor">Color: </p>
+                <button class="cloth-add-to-cart">Add to Cart</button>
+                <button class="cloth-add-to-cart" id="buy">Buy Now</button>
+                <br>
+                <button class="cloth-add-to-cart" id="back" onclick="B()">Back</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footerbox">
+            <div class="logo">
+                <p>SURAJ</p>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2023 Your Website. All rights reserved.</p>
+                <p>Address, City, Country</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/srjdesignocity/"><img src="/images/insta.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/suraj.nigam.3720"><img src="/images/fb.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/in/suraj-nigam-13b5a6195/"><img src="/images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="Details_script.js"></script>
+</body>
+</html>
